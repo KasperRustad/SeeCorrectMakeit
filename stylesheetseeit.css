@@ -1,0 +1,2186 @@
+body {
+  font-family: sans-serif;
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  height: 500px;
+  display: block;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.form-grup  {
+  display: block;
+  margin-top: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.form-grup textarea {
+  box-shadow: 1px 1px 0px 0px black;
+  width: 400px;
+}
+
+.form-grup input {
+  border-radius: 4px;
+}
+
+.container button {
+  margin-top: 30px;
+  margin-left: 300px;
+}
+
+.header {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+.header ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #531016;
+  height: 120px;
+}
+
+.header li {
+  float: left;
+  color: white;
+  font-size: 22px;
+}
+
+.header li img {
+  margin-left: 40px;
+  width: 120px;
+  vertical-align: middle;
+}
+
+.header li a {
+  margin: 0px;
+  height: 120px;
+  border: 1px solid white;
+  display: inline-block;
+  text-align: center;
+  padding-top: 40px;
+  padding-right: 90px;
+  padding-left: 90px;
+  color: white;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.header li a:hover {
+  font-size: 25px;
+}
+
+.active {
+  background-color: #790022;
+  font-size: 27px !important;
+  font-weight: bolder !important;
+}
+
+
+.f-right {
+  float: right;
+}
+
+.ddmeny {
+  display: none;
+}
+
+.middlebox {
+  margin-bottom: 0px;
+  border: 2px solid black;
+  display: block;
+  margin-left: 200px;
+  margin-right: 200px;
+  height: 750px;
+  overflow: hidden;
+}
+
+.middlebox img {
+  width: 1700px;
+  height: 500px;
+  opacity: 0.9;
+  position: relative;
+  z-index: -1;
+}
+
+.aboutbox {
+  margin-bottom: 0px;
+  border: 2px solid black;
+  display: block;
+  margin-left: 200px;
+  margin-right: 200px;
+  height: 750px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.aboutbox img {
+  display: block;
+  margin-left: 30px;
+  width: 1350px;
+}
+
+.aboutbox p {
+  font-size: 18px;
+  margin-left: 30px;
+  margin-right: 100px;
+  line-height: 30px;
+}
+
+.aboutbox p img {
+  padding: 10px;
+  border-radius: 30px;
+  width: 250px;
+  float: right;
+}
+
+.aboutbox picture img {
+  float: left;
+  width: 130px;
+  margin-bottom: 30px;
+}
+
+.aboutbox ul {
+  list-style: none;
+}
+
+.aboutbox li {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.aboutbox li a {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+  transition: all 0.6s;
+}
+
+.aboutbox li a:hover {
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.degreesbox {
+  margin-bottom: 0px;
+  display: block;
+  margin-left: 200px;
+  margin-right: 200px;
+  height: 810px;
+  overflow: hidden;
+}
+
+.degreesbox ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.degreesbox li {
+  text-align: center;
+  float: left;
+  font-size: 23px;
+  margin-bottom: 2px;
+  display: block;
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 50px;
+  height: 266px;
+  width: 50%;
+  background-color: lightgrey;
+  transition: all 0.3s;
+}
+
+.degreesbox img:hover {
+  width: 110px;
+}
+
+.degreesbox img {
+  width: 100px;
+  transition: all 0.3s;
+}
+
+
+.overskrift {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 55px;
+}
+
+.overskrift2 {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 55px;
+}
+
+.underskrift {
+  text-align: center;
+  line-height: 45px;
+}
+
+.underskrift2 {
+  margin-left: 30px;
+}
+
+
+.footerbox {
+  display: block;
+  position: sticky;
+  bottom: 0px;
+  border-radius: 10px;
+  margin: 0px;
+  margin-left: 200px;
+  margin-right: 200px;
+  height: 55px;
+  background-color: #531016;
+  box-shadow: 1px 1px 0px 0px black;
+}
+
+.footerbox p {
+  padding-top: 20px;
+  margin-left: 40px;
+  font-size: 18px;
+  color: white;
+}
+
+.footerright {
+  margin-right: 40px;
+  float: right;
+}
+
+.dd {
+  display: none;
+}
+
+@media only screen and (max-width: 1850px){
+
+  .header ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #531016;
+    height: 120px;
+  }
+
+  .header li {
+    float: left;
+    color: white;
+    font-size: 22px;
+  }
+
+  .header li img {
+    margin-left: 40px;
+    width: 120px;
+    vertical-align: middle;
+  }
+
+  .header li a {
+    margin: 0px;
+    height: 120px;
+    border: 1px solid white;
+    display: inline-block;
+    text-align: center;
+    padding-top: 40px;
+    padding-right: 70px;
+    padding-left: 70px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+  }
+
+  .header li a:hover {
+    font-size: 24px;
+  }
+
+  .active {
+    background-color: #790022;
+    font-size: 26px !important;
+    font-weight: bolder !important;
+  }
+
+}
+
+@media only screen and (max-width: 1620px){
+  .header ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #531016;
+    height: 120px;
+  }
+
+  .header li {
+    float: left;
+    color: white;
+    font-size: 22px;
+  }
+
+  .header li img {
+    margin-left: 30px;
+    width: 120px;
+    vertical-align: middle;
+  }
+
+  .header li a {
+    margin: 0px;
+    height: 120px;
+    border: 1px solid white;
+    display: inline-block;
+    text-align: center;
+    padding-top: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+  }
+
+  .header li a:hover {
+    font-size: 24px;
+  }
+
+  .active {
+    background-color: #790022;
+    font-size: 26px !important;
+    font-weight: bolder !important;
+  }
+
+  .footerbox {
+    display: block;
+    border-radius: 10px;
+    margin: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 55px;
+    background-color: #531016;
+    box-shadow: 1px 1px 0px 0px black;
+  }
+
+  .footerbox p {
+    padding-top: 20px;
+    margin-left: 20px;
+    font-size: 17px;
+    color: white;
+  }
+
+  .footerright {
+    margin-right: 20px;
+    float: right;
+  }
+
+  .middlebox img {
+    width: 1400px;
+    height: 450px;
+    opacity: 0.9;
+  }
+
+  .aboutbox {
+    margin-bottom: 0px;
+    border: 2px solid black;
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 750px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+
+  .aboutbox img {
+    display: block;
+    margin-left: 30px;
+    width: 1100px;
+  }
+
+  .aboutbox p {
+    font-size: 18px;
+    margin-left: 30px;
+    margin-right: 100px;
+    line-height: 30px;
+  }
+
+  .aboutbox p img {
+    padding: 10px;
+    border-radius: 30px;
+    width: 250px;
+    float: right;
+  }
+
+  .aboutbox picture img {
+    float: left;
+    width: 130px;
+    margin-bottom: 30px;
+  }
+
+  .aboutbox ul {
+    list-style: none;
+  }
+
+  .aboutbox li {
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .aboutbox li a {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    transition: all 0.6s;
+  }
+
+  .aboutbox li a:hover {
+    font-size: 22px;
+    font-weight: bolder;
+  }
+}
+
+@media only screen and (max-width: 1410px){
+
+  .container {
+    height: 500px;
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .form-grup  {
+    display: block;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .form-grup textarea {
+    box-shadow: 1px 1px 0px 0px black;
+  }
+
+  .form-grup input {
+    border-radius: 4px;
+  }
+
+  .container button {
+    margin-top: 30px;
+    margin-left: 200px;
+  }
+
+  .header ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #531016;
+    height: 100px;
+  }
+
+  .header li {
+    float: left;
+    color: white;
+    font-size: 20px;
+  }
+
+  .header li img {
+    margin-left: 30px;
+    width: 100px;
+    vertical-align: middle;
+  }
+
+  .header li a {
+    margin: 0px;
+    height: 120px;
+    border: 1px solid white;
+    display: inline-block;
+    text-align: center;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+  }
+
+  .header li a:hover {
+    font-size: 22px;
+  }
+
+  .active {
+    background-color: #790022;
+    font-size: 24px !important;
+    font-weight: bolder !important;
+  }
+
+  .footerbox {
+    display: block;
+    border-radius: 10px;
+    margin: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 55px;
+    background-color: #531016;
+    box-shadow: 1px 1px 0px 0px black;
+  }
+
+  .footerbox p {
+    padding-top: 20px;
+    margin-left: 12px;
+    font-size: 15px;
+    color: white;
+  }
+
+  .footerright {
+    margin-right: 12px;
+    float: right;
+  }
+
+  .middlebox img {
+    width: 1300px;
+    height: 450px;
+    opacity: 0.9;
+  }
+
+  .overskrift {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 40px;
+  }
+
+  .overskrift2 {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 40px;
+  }
+
+  .underskrift {
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+  }
+
+  .middlebox {
+    margin-bottom: 0px;
+    border: 2px solid black;
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 700px;
+    overflow: hidden;
+  }
+
+  .aboutbox {
+    margin-bottom: 0px;
+    border: 2px solid black;
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 750px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+
+  .aboutbox img {
+    display: block;
+    margin-left: 30px;
+    width: 900px;
+  }
+
+  .aboutbox p {
+    font-size: 18px;
+    margin-left: 30px;
+    margin-right: 100px;
+    line-height: 30px;
+  }
+
+  .aboutbox p img {
+    padding: 10px;
+    border-radius: 30px;
+    width: 250px;
+    float: right;
+  }
+
+  .aboutbox picture img {
+    float: left;
+    width: 130px;
+    margin-bottom: 30px;
+  }
+
+  .aboutbox ul {
+    list-style: none;
+  }
+
+  .aboutbox li {
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .aboutbox li a {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    transition: all 0.6s;
+  }
+
+  .aboutbox li a:hover {
+    font-size: 22px;
+    font-weight: bolder;
+  }
+}
+
+@media only screen and (max-width: 1270px){
+  .header ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #531016;
+    height: 80px;
+  }
+
+  .header li {
+    float: left;
+    color: white;
+    font-size: 18px;
+  }
+
+  .header li img {
+    margin-left: 30px;
+    width: 80px;
+    vertical-align: middle;
+  }
+
+  .header li a {
+    margin: 0px;
+    height: 120px;
+    border: 1px solid white;
+    display: inline-block;
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-left: 40px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+  }
+
+  .header li a:hover {
+    font-size: 20px;
+  }
+
+  .active {
+    background-color: #790022;
+    font-size: 22px !important;
+    font-weight: bolder !important;
+  }
+
+  .degreesbox {
+    margin-bottom: 0px;
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 810px;
+    overflow: hidden;
+  }
+
+  .degreesbox ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+  }
+
+  .degreesbox li {
+    text-align: center;
+    float: left;
+    font-size: 23px;
+    margin-bottom: 2px;
+    display: block;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 50px;
+    height: 240px;
+    width: 50%;
+    background-color: lightgrey;
+    transition: all 0.3s;
+  }
+
+  .degreesbox img:hover {
+    width: 110px;
+  }
+
+  .degreesbox img {
+    width: 100px;
+    transition: all 0.3s;
+  }
+
+  .footerbox {
+    display: block;
+    border-radius: 10px;
+    margin: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 55px;
+    background-color: #531016;
+    box-shadow: 1px 1px 0px 0px black;
+  }
+
+  .footerbox p {
+    padding-top: 20px;
+    margin-left: 8px;
+    font-size: 13px;
+    color: white;
+  }
+
+  .footerright {
+    margin-right: 8px;
+    float: right;
+  }
+
+  .middlebox img {
+    width: 1200px;
+    height: 400px;
+    opacity: 0.9;
+  }
+
+  .overskrift {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 30px;
+  }
+
+  .underskrift {
+    text-align: center;
+    line-height: 30px;
+    font-size: 17px;
+  }
+
+  .middlebox {
+    margin-bottom: 0px;
+    border: 2px solid black;
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 620px;
+    overflow: hidden;
+  }
+
+  .aboutbox {
+    margin-bottom: 0px;
+    border: 2px solid black;
+    display: block;
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 750px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+
+  .aboutbox img {
+    display: block;
+    margin-left: 30px;
+    width: 900px;
+  }
+
+  .aboutbox p {
+    font-size: 18px;
+    margin-left: 30px;
+    margin-right: 100px;
+    line-height: 30px;
+  }
+
+  .aboutbox p img {
+    padding: 10px;
+    border-radius: 30px;
+    width: 250px;
+    float: right;
+  }
+
+  .aboutbox picture img {
+    float: left;
+    width: 130px;
+    margin-bottom: 30px;
+  }
+
+  .aboutbox ul {
+    list-style: none;
+  }
+
+  .aboutbox li {
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .aboutbox li a {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    transition: all 0.6s;
+  }
+
+  .aboutbox li a:hover {
+    font-size: 22px;
+    font-weight: bolder;
+  }
+}
+
+@media only screen and (max-width: 1130px){
+  .header ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #531016;
+    height: 80px;
+  }
+
+  .header li {
+    float: left;
+    color: white;
+    font-size: 16px;
+  }
+
+  .header li img {
+    margin-left: 20px;
+    width: 80px;
+    vertical-align: middle;
+  }
+
+  .header li a {
+    margin: 0px;
+    height: 120px;
+    border: 1px solid white;
+    display: inline-block;
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+  }
+
+  .header li a:hover {
+    font-size: 18px;
+  }
+
+  .active {
+    background-color: #790022;
+    font-size: 20px !important;
+    font-weight: bolder !important;
+  }
+
+  .footerbox {
+    display: block;
+    border-radius: 10px;
+    margin: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 55px;
+    background-color: #531016;
+    box-shadow: 1px 1px 0px 0px black;
+  }
+
+  .footerbox p {
+    padding-top: 20px;
+    margin-left: 8px;
+    font-size: 13px;
+    color: white;
+  }
+
+  .footerright {
+    margin-right: 8px;
+    float: right;
+  }
+
+  .middlebox img {
+    width: 1200px;
+    height: 400px;
+    opacity: 0.9;
+  }
+
+  .overskrift {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 30px;
+  }
+
+  .underskrift {
+    text-align: center;
+    line-height: 30px;
+    font-size: 17px;
+  }
+
+  .middlebox {
+    margin-bottom: 0px;
+    border: 2px solid black;
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 620px;
+    overflow: hidden;
+  }
+
+  .aboutbox {
+    margin-bottom: 0px;
+    border: 2px solid black;
+    display: block;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 750px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+
+  .aboutbox img {
+    display: block;
+    margin-left: 30px;
+    width: 900px;
+  }
+
+  .aboutbox p {
+    font-size: 18px;
+    margin-left: 30px;
+    margin-right: 100px;
+    line-height: 30px;
+  }
+
+  .aboutbox p img {
+    padding: 10px;
+    border-radius: 30px;
+    width: 250px;
+    float: right;
+  }
+
+  .aboutbox picture img {
+    float: left;
+    width: 130px;
+    margin-bottom: 30px;
+  }
+
+  .aboutbox ul {
+    list-style: none;
+  }
+
+  .aboutbox li {
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .aboutbox li a {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    transition: all 0.6s;
+  }
+
+  .aboutbox li a:hover {
+    font-size: 22px;
+    font-weight: bolder;
+  }
+}
+
+@media only screen and (max-width: 940px){
+
+  .container {
+    height: 500px;
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .form-grup  {
+    display: block;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .form-grup textarea {
+    box-shadow: 1px 1px 0px 0px black;
+  }
+
+  .form-grup input {
+    border-radius: 4px;
+  }
+
+  .container button {
+    margin-top: 30px;
+    margin-left: 100px;
+  }
+
+  .header ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #531016;
+    height: 80px;
+  }
+
+  .header li {
+    float: left;
+    color: white;
+    font-size: 14px;
+  }
+
+  .header li img {
+    margin-left: 20px;
+    width: 80px;
+    vertical-align: middle;
+  }
+
+  .header li a {
+    margin: 0px;
+    height: 120px;
+    border: 1px solid white;
+    display: inline-block;
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+  }
+
+  .header li a:hover {
+    font-size: 16px;
+  }
+
+  .active {
+    background-color: #790022;
+    font-size: 18px !important;
+    font-weight: bolder !important;
+  }
+
+  .degreesbox {
+    margin-bottom: 0px;
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 810px;
+    overflow: hidden;
+  }
+
+  .degreesbox ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+  }
+
+  .degreesbox li {
+    text-align: center;
+    float: left;
+    font-size: 19px;
+    margin-bottom: 2px;
+    display: block;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 50px;
+    height: 240px;
+    width: 50%;
+    background-color: lightgrey;
+    transition: all 0.3s;
+  }
+
+  .degreesbox img:hover {
+    width: 90px;
+  }
+
+  .degreesbox img {
+    width: 80px;
+    transition: all 0.3s;
+  }
+
+  .footerbox {
+    display: block;
+    border-radius: 10px;
+    margin: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 55px;
+    background-color: #531016;
+    box-shadow: 1px 1px 0px 0px black;
+  }
+
+  .footerbox p {
+    padding-top: 20px;
+    margin-left: 8px;
+    font-size: 13px;
+    color: white;
+  }
+
+  .footerright {
+    margin-right: 8px;
+    float: right;
+  }
+
+  .middlebox img {
+    width: 1000px;
+    height: 350px;
+    opacity: 0.9;
+  }
+
+  .overskrift {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 20px;
+  }
+
+  .underskrift {
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+  }
+
+  .middlebox {
+    margin-bottom: 0px;
+    border: 2px solid black;
+    display: block;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 550px;
+    overflow: hidden;
+  }
+
+  .aboutbox {
+    margin-bottom: 0px;
+    border: 2px solid black;
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 750px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+
+  .aboutbox img {
+    display: block;
+    margin-left: 30px;
+    width: 750px;
+  }
+
+  .aboutbox p {
+    font-size: 18px;
+    margin-left: 30px;
+    margin-right: 100px;
+    line-height: 30px;
+  }
+
+  .aboutbox p img {
+    padding: 10px;
+    border-radius: 30px;
+    width: 250px;
+    float: right;
+  }
+
+  .aboutbox picture img {
+    float: left;
+    width: 130px;
+    margin-bottom: 30px;
+  }
+
+  .aboutbox ul {
+    list-style: none;
+  }
+
+  .aboutbox li {
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .aboutbox li a {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    transition: all 0.6s;
+  }
+
+  .aboutbox li a:hover {
+    font-size: 22px;
+    font-weight: bolder;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  .header ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #531016;
+    height: 80px;
+  }
+
+  .header li {
+    float: left;
+    color: white;
+    font-size: 14px;
+  }
+
+  .header li img {
+    margin-left: 20px;
+    width: 80px;
+    vertical-align: middle;
+  }
+
+  .header li a {
+    margin: 0px;
+    height: 120px;
+    border: 1px solid white;
+    display: inline-block;
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+  }
+
+  .header li a:hover {
+    font-size: 16px;
+  }
+
+  .active {
+    background-color: #790022;
+    font-size: 18px !important;
+    font-weight: bolder !important;
+  }
+
+  .footerbox {
+    display: block;
+    border-radius: 10px;
+    margin: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 30px;
+    background-color: #531016;
+    box-shadow: 1px 1px 0px 0px black;
+  }
+
+  .footerbox p {
+    padding-top: 10px;
+    margin-left: 8px;
+    font-size: 10px;
+    color: white;
+  }
+
+  .footerright {
+    margin-right: 8px;
+    float: right;
+  }
+
+  .middlebox img {
+    width: 1000px;
+    height: 350px;
+    opacity: 0.9;
+  }
+
+  .overskrift {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 20px;
+  }
+
+  .underskrift {
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+  }
+
+  .middlebox {
+    margin-bottom: 0px;
+    border: 2px solid black;
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 550px;
+    overflow: hidden;
+  }
+
+  .aboutbox {
+    margin-bottom: 0px;
+    border: 2px solid black;
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 750px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+
+  .aboutbox img {
+    display: block;
+    margin-left: 30px;
+    width: 650px;
+  }
+
+  .aboutbox p {
+    font-size: 18px;
+    margin-left: 30px;
+    margin-right: 100px;
+    line-height: 30px;
+  }
+
+  .aboutbox p img {
+    padding: 10px;
+    border-radius: 30px;
+    width: 250px;
+    float: right;
+  }
+
+  .aboutbox picture img {
+    float: left;
+    width: 130px;
+    margin-bottom: 30px;
+  }
+
+  .aboutbox ul {
+    list-style: none;
+  }
+
+  .aboutbox li {
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .aboutbox li a {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    transition: all 0.6s;
+  }
+
+  .aboutbox li a:hover {
+    font-size: 22px;
+    font-weight: bolder;
+  }
+}
+
+@media only screen and (max-width: 750px){
+
+  .container {
+    height: 500px;
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .form-grup  {
+    display: block;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .form-grup textarea {
+    box-shadow: 1px 1px 0px 0px black;
+    width: 300px;
+  }
+
+  .form-grup input {
+    border-radius: 4px;
+  }
+
+  .container button {
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+
+
+  .header ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #531016;
+    height: 80px;
+  }
+
+  .header li {
+    float: none;
+    color: white;
+    font-size: 14px;
+  }
+
+  .header li img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    vertical-align: middle;
+  }
+
+  .header li a {
+    margin: 0px;
+    height: 120px;
+    border: 1px solid white;
+    display: inline-block;
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+  }
+
+  .header li a:hover {
+    font-size: 16px;
+  }
+
+  .active {
+    background-color: #790022;
+    font-size: 18px !important;
+    font-weight: bolder !important;
+  }
+
+  .degreesbox {
+    margin-bottom: 0px;
+    display: block;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 810px;
+    overflow: hidden;
+  }
+
+  .degreesbox ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+  }
+
+  .degreesbox li {
+    text-align: center;
+    float: left;
+    font-size: 18px;
+    margin-bottom: 2px;
+    display: block;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 50px;
+    height: 225px;
+    width: 50%;
+    background-color: lightgrey;
+    transition: all 0.3s;
+  }
+
+  .degreesbox img:hover {
+    width: 70px;
+  }
+
+  .degreesbox img {
+    width: 60px;
+    transition: all 0.3s;
+  }
+
+  .f-right {
+    display: none;
+  }
+
+  .ddmeny {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    position: sticky;
+    top: 80px;
+  }
+
+
+  .btn {
+    background-color: #531016;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .ddmeny:hover .btn {
+    font-size: 26px;
+    z-index: 1;
+  }
+
+  .menycontent {
+    display: none;
+    position: absolute;
+    background-color: #790022;
+    min-width: 100%;
+    box-shadow: 0px 2px 5px 0px black;
+    z-index: 1;
+  }
+
+  .menycontent a {
+    color: white;
+    font-size: 17px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    display: block;
+    z-index: 1;
+  }
+
+  .menycontent a:hover {
+    background-color: #531016;
+    z-index: 1;
+  }
+
+  .ddmeny:hover .menycontent {
+    display: block;
+    z-index: 1;
+  }
+
+  .footerbox {
+    display: block;
+    border-radius: 10px;
+    margin: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 30px;
+    background-color: #531016;
+    box-shadow: 1px 1px 0px 0px black;
+  }
+
+  .footerbox p {
+    padding-top: 10px;
+    margin-left: 8px;
+    font-size: 10px;
+    color: white;
+  }
+
+  .footerright {
+    margin-right: 8px;
+    float: right;
+  }
+
+  .middlebox img {
+    width: 1000px;
+    height: 350px;
+    opacity: 0.9;
+  }
+
+  .overskrift {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 20px;
+  }
+
+  .underskrift {
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+  }
+
+  .middlebox {
+    margin-bottom: 0px;
+    border: 2px solid black;
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 550px;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 550px){
+
+  .container {
+    height: 500px;
+    display: block;
+    margin-left: 10px;
+    margin-right: 200px;
+  }
+
+  .form-grup  {
+    display: block;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .form-grup textarea {
+    box-shadow: 1px 1px 0px 0px black;
+  }
+
+  .form-grup input {
+    border-radius: 4px;
+  }
+
+  .container button {
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+
+  .header ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #531016;
+    height: 80px;
+  }
+
+  .header li {
+    float: none;
+    color: white;
+    font-size: 14px;
+  }
+
+  .header li img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    vertical-align: middle;
+  }
+
+  .header li a {
+    margin: 0px;
+    height: 120px;
+    border: 1px solid white;
+    display: inline-block;
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+  }
+
+  .header li a:hover {
+    font-size: 16px;
+  }
+
+  .active {
+    background-color: #790022;
+    font-size: 18px !important;
+    font-weight: bolder !important;
+  }
+
+  .degreesbox {
+    margin-bottom: 0px;
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 810px;
+    overflow: hidden;
+  }
+
+  .degreesbox ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+  }
+
+  .degreesbox li {
+    text-align: center;
+    float: left;
+    font-size: 18px;
+    margin-bottom: 2px;
+    display: block;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 50px;
+    height: 225px;
+    width: 50%;
+    background-color: lightgrey;
+    transition: all 0.3s;
+  }
+
+  .degreesbox img:hover {
+    width: 70px;
+  }
+
+  .degreesbox img {
+    width: 60px;
+    transition: all 0.3s;
+  }
+
+  .f-right {
+    display: none;
+  }
+
+  .ddmeny {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    position: sticky;
+    top: 80px;
+  }
+
+
+  .btn {
+    background-color: #531016;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .ddmeny:hover .btn {
+    font-size: 26px;
+  }
+
+  .menycontent {
+    display: none;
+    position: absolute;
+    background-color: #790022;
+    min-width: 100%;
+    box-shadow: 0px 2px 5px 0px black;
+    z-index: 1;
+  }
+
+  .menycontent a {
+    color: white;
+    font-size: 17px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .menycontent a:hover {
+    background-color: #531016;
+  }
+
+  .ddmeny:hover .menycontent {
+    display: block;
+  }
+
+  .footerbox {
+    display: block;
+    border-radius: 10px;
+    margin: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 30px;
+    background-color: #531016;
+    box-shadow: 1px 1px 0px 0px black;
+  }
+
+  .footerbox p {
+    padding-top: 10px;
+    margin-left: 8px;
+    font-size: 10px;
+    color: white;
+  }
+
+  .footerright {
+    margin-right: 8px;
+    float: right;
+  }
+
+  .middlebox img {
+    width: 550px;
+    height: 230px;
+    opacity: 0.9;
+  }
+
+  .overskrift {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 20px;
+  }
+
+  .underskrift {
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+  }
+
+  .middlebox {
+    margin-bottom: 0px;
+    border: 2px solid black;
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 430px;
+    overflow: hidden;
+  }
+
+  .aboutbox {
+    margin-bottom: 0px;
+    border: 2px solid black;
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 750px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+
+  .aboutbox img {
+    display: block;
+    margin-left: 10px;
+    width: 470px;
+  }
+
+  .aboutbox p {
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 30px;
+  }
+
+  .aboutbox p img {
+    padding: 10px;
+    border-radius: 30px;
+    width: 220px;
+    float: right;
+  }
+
+  .aboutbox picture img {
+    float: left;
+    width: 130px;
+    margin-bottom: 30px;
+  }
+
+  .aboutbox ul {
+    list-style: none;
+  }
+
+  .aboutbox li {
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .aboutbox li a {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    transition: all 0.6s;
+  }
+
+  .aboutbox li a:hover {
+    font-size: 22px;
+    font-weight: bolder;
+  }
+
+  .underskrift2 {
+    font-size: 21px;
+    margin-left: 10px;
+  }
+
+
+}
+
+@media only screen and (max-width: 440px) {
+
+  .container {
+    height: 500px;
+    display: block;
+    margin-left: 10px;
+    margin-right: 200px;
+  }
+
+  .form-grup  {
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .form-grup textarea {
+    box-shadow: 1px 1px 0px 0px black;
+    width: 250px;
+  }
+
+  .form-grup input {
+    border-radius: 4px;
+  }
+
+  .container button {
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+
+  .header ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #531016;
+    height: 80px;
+  }
+
+  .header li {
+    float: none;
+    color: white;
+    font-size: 14px;
+  }
+
+  .header li img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    vertical-align: middle;
+  }
+
+  .header li a {
+    margin: 0px;
+    height: 120px;
+    border: 1px solid white;
+    display: inline-block;
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+  }
+
+  .header li a:hover {
+    font-size: 16px;
+  }
+
+  .active {
+    background-color: #790022;
+    font-size: 18px !important;
+    font-weight: bolder !important;
+  }
+
+  .degreesbox {
+    margin-bottom: 0px;
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 810px;
+    overflow: hidden;
+  }
+
+  .degreesbox ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+  }
+
+  .degreesbox li {
+    text-align: center;
+    float: left;
+    font-size: 16px;
+    margin-bottom: 2px;
+    display: block;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 10px;
+    padding-top: 50px;
+    height: 190px;
+    width: 50%;
+    background-color: lightgrey;
+    transition: all 0.3s;
+  }
+
+  .degreesbox img:hover {
+    width: 50px;
+  }
+
+  .degreesbox img {
+    width: 40px;
+    transition: all 0.3s;
+  }
+
+  .f-right {
+    display: none;
+  }
+
+  .ddmeny {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    position: sticky;
+    top: 80px;
+  }
+
+
+  .btn {
+    background-color: #531016;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .ddmeny:hover .btn {
+    font-size: 26px;
+  }
+
+  .menycontent {
+    display: none;
+    position: absolute;
+    background-color: #790022;
+    min-width: 100%;
+    box-shadow: 0px 2px 5px 0px black;
+    z-index: 1;
+  }
+
+  .menycontent a {
+    color: white;
+    font-size: 17px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .menycontent a:hover {
+    background-color: #531016;
+  }
+
+  .ddmeny:hover .menycontent {
+    display: block;
+  }
+
+  .footerbox {
+    display: block;
+    border-radius: 10px;
+    margin: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 60px;
+    background-color: #531016;
+    box-shadow: 1px 1px 0px 0px black;
+  }
+
+  .footerbox p {
+    padding-top: 10px;
+    margin-left: 10px;
+    font-size: 10px;
+    color: white;
+  }
+
+  .footerright {
+    margin-right: 10px;
+    float: right;
+    padding-top: 15px;
+  }
+
+  .middlebox img {
+    width: 500px;
+    height: 220px;
+    opacity: 0.9;
+  }
+
+  .overskrift {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 18px;
+  }
+
+  .underskrift {
+    text-align: center;
+    line-height: 25px;
+    font-size: 14px;
+  }
+
+  .middlebox {
+    margin-bottom: 0px;
+    border: 2px solid black;
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 400px;
+    overflow: hidden;
+  }
+
+  .aboutbox {
+    margin-bottom: 0px;
+    border: 2px solid black;
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 750px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+
+  .aboutbox img {
+    display: block;
+    margin-left: 10px;
+    width: 330px;
+  }
+
+  .aboutbox p {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 23px;
+  }
+
+  .aboutbox p img {
+    padding: 10px;
+    border-radius: 30px;
+    width: 190px;
+    float: right;
+  }
+
+  .aboutbox picture img {
+    float: left;
+    width: 130px;
+    margin-bottom: 30px;
+  }
+
+  .aboutbox ul {
+    padding-left: 0px;
+    margin-left: 10px;
+    list-style: none;
+  }
+
+  .aboutbox li {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .aboutbox li a {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    transition: all 0.6s;
+  }
+
+  .aboutbox li a:hover {
+    font-size: 22px;
+    font-weight: bolder;
+  }
+
+  .underskrift2 {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+}
